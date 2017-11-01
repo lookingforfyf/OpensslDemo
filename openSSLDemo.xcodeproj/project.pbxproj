@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F189DE71FA4588B00888800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189DE61FA4588B00888800 /* main.m */; };
+		0F189DEA1FA4588B00888800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189DE91FA4588B00888800 /* AppDelegate.m */; };
+		0F189DED1FA4588B00888800 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189DEC1FA4588B00888800 /* ViewController.m */; };
+		0F189DF01FA4588B00888800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F189DEE1FA4588B00888800 /* Main.storyboard */; };
+		0F189DF21FA4588B00888800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F189DF11FA4588B00888800 /* Assets.xcassets */; };
+		0F189DF51FA4588B00888800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F189DF31FA4588B00888800 /* LaunchScreen.storyboard */; };
+		0F189E001FA4588B00888800 /* openSSLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189DFF1FA4588B00888800 /* openSSLDemoTests.m */; };
+		0F189E0B1FA4588B00888800 /* openSSLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189E0A1FA4588B00888800 /* openSSLDemoUITests.m */; };
+		0F189E231FA4605800888800 /* OpenSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F189E221FA4605800888800 /* OpenSSL.m */; };
+		0F189ED41FA8568000888800 /* bank.der in Resources */ = {isa = PBXBuildFile; fileRef = 0F189ED31FA8568000888800 /* bank.der */; };
+		0F5FFC721FA9A9FD00138FEA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5FFC701FA9A9FD00138FEA /* libcrypto.a */; };
+		0F5FFC731FA9A9FD00138FEA /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5FFC711FA9A9FD00138FEA /* libssl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F189DFC1FA4588B00888800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F189DDA1FA4588B00888800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F189DE11FA4588B00888800;
+			remoteInfo = openSSLDemo;
+		};
+		0F189E071FA4588B00888800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F189DDA1FA4588B00888800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F189DE11FA4588B00888800;
+			remoteInfo = openSSLDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F189DE21FA4588B00888800 /* openSSLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openSSLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F189DE61FA4588B00888800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F189DE81FA4588B00888800 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F189DE91FA4588B00888800 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F189DEB1FA4588B00888800 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F189DEC1FA4588B00888800 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F189DEF1FA4588B00888800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F189DF11FA4588B00888800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F189DF41FA4588B00888800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F189DF61FA4588B00888800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F189DFB1FA4588B00888800 /* openSSLDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openSSLDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F189DFF1FA4588B00888800 /* openSSLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSSLDemoTests.m; sourceTree = "<group>"; };
+		0F189E011FA4588B00888800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F189E061FA4588B00888800 /* openSSLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openSSLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F189E0A1FA4588B00888800 /* openSSLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSSLDemoUITests.m; sourceTree = "<group>"; };
+		0F189E0C1FA4588B00888800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F189E211FA4605800888800 /* OpenSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSSL.h; sourceTree = "<group>"; };
+		0F189E221FA4605800888800 /* OpenSSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSSL.m; sourceTree = "<group>"; };
+		0F189ED31FA8568000888800 /* bank.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = bank.der; sourceTree = "<group>"; };
+		0F5FFC701FA9A9FD00138FEA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = openSSLDemo/bin/libcrypto.a; sourceTree = "<group>"; };
+		0F5FFC711FA9A9FD00138FEA /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = openSSLDemo/bin/libssl.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F189DDF1FA4588B00888800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5FFC721FA9A9FD00138FEA /* libcrypto.a in Frameworks */,
+				0F5FFC731FA9A9FD00138FEA /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189DF81FA4588B00888800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189E031FA4588B00888800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F189DD91FA4588B00888800 = {
+			isa = PBXGroup;
+			children = (
+				0F189DE41FA4588B00888800 /* openSSLDemo */,
+				0F189DFE1FA4588B00888800 /* openSSLDemoTests */,
+				0F189E091FA4588B00888800 /* openSSLDemoUITests */,
+				0F189DE31FA4588B00888800 /* Products */,
+				0F189E181FA45DB300888800 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F189DE31FA4588B00888800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F189DE21FA4588B00888800 /* openSSLDemo.app */,
+				0F189DFB1FA4588B00888800 /* openSSLDemoTests.xctest */,
+				0F189E061FA4588B00888800 /* openSSLDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F189DE41FA4588B00888800 /* openSSLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F189ED21FA8568000888800 /* Certificate(证书) */,
+				0F189DE81FA4588B00888800 /* AppDelegate.h */,
+				0F189DE91FA4588B00888800 /* AppDelegate.m */,
+				0F189DEB1FA4588B00888800 /* ViewController.h */,
+				0F189DEC1FA4588B00888800 /* ViewController.m */,
+				0F189E211FA4605800888800 /* OpenSSL.h */,
+				0F189E221FA4605800888800 /* OpenSSL.m */,
+				0F189DEE1FA4588B00888800 /* Main.storyboard */,
+				0F189DF11FA4588B00888800 /* Assets.xcassets */,
+				0F189DF31FA4588B00888800 /* LaunchScreen.storyboard */,
+				0F189DF61FA4588B00888800 /* Info.plist */,
+				0F189DE51FA4588B00888800 /* Supporting Files */,
+			);
+			path = openSSLDemo;
+			sourceTree = "<group>";
+		};
+		0F189DE51FA4588B00888800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F189DE61FA4588B00888800 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F189DFE1FA4588B00888800 /* openSSLDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F189DFF1FA4588B00888800 /* openSSLDemoTests.m */,
+				0F189E011FA4588B00888800 /* Info.plist */,
+			);
+			path = openSSLDemoTests;
+			sourceTree = "<group>";
+		};
+		0F189E091FA4588B00888800 /* openSSLDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F189E0A1FA4588B00888800 /* openSSLDemoUITests.m */,
+				0F189E0C1FA4588B00888800 /* Info.plist */,
+			);
+			path = openSSLDemoUITests;
+			sourceTree = "<group>";
+		};
+		0F189E181FA45DB300888800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FFC701FA9A9FD00138FEA /* libcrypto.a */,
+				0F5FFC711FA9A9FD00138FEA /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F189ED21FA8568000888800 /* Certificate(证书) */ = {
+			isa = PBXGroup;
+			children = (
+				0F189ED31FA8568000888800 /* bank.der */,
+			);
+			path = "Certificate(证书)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F189DE11FA4588B00888800 /* openSSLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F189E0F1FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemo" */;
+			buildPhases = (
+				0F189DDE1FA4588B00888800 /* Sources */,
+				0F189DDF1FA4588B00888800 /* Frameworks */,
+				0F189DE01FA4588B00888800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openSSLDemo;
+			productName = openSSLDemo;
+			productReference = 0F189DE21FA4588B00888800 /* openSSLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F189DFA1FA4588B00888800 /* openSSLDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F189E121FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemoTests" */;
+			buildPhases = (
+				0F189DF71FA4588B00888800 /* Sources */,
+				0F189DF81FA4588B00888800 /* Frameworks */,
+				0F189DF91FA4588B00888800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F189DFD1FA4588B00888800 /* PBXTargetDependency */,
+			);
+			name = openSSLDemoTests;
+			productName = openSSLDemoTests;
+			productReference = 0F189DFB1FA4588B00888800 /* openSSLDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F189E051FA4588B00888800 /* openSSLDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F189E151FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemoUITests" */;
+			buildPhases = (
+				0F189E021FA4588B00888800 /* Sources */,
+				0F189E031FA4588B00888800 /* Frameworks */,
+				0F189E041FA4588B00888800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F189E081FA4588B00888800 /* PBXTargetDependency */,
+			);
+			name = openSSLDemoUITests;
+			productName = openSSLDemoUITests;
+			productReference = 0F189E061FA4588B00888800 /* openSSLDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F189DDA1FA4588B00888800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "范云飞";
+				TargetAttributes = {
+					0F189DE11FA4588B00888800 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TCT9M53HAH;
+						ProvisioningStyle = Automatic;
+					};
+					0F189DFA1FA4588B00888800 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TCT9M53HAH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F189DE11FA4588B00888800;
+					};
+					0F189E051FA4588B00888800 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TCT9M53HAH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F189DE11FA4588B00888800;
+					};
+				};
+			};
+			buildConfigurationList = 0F189DDD1FA4588B00888800 /* Build configuration list for PBXProject "openSSLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F189DD91FA4588B00888800;
+			productRefGroup = 0F189DE31FA4588B00888800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F189DE11FA4588B00888800 /* openSSLDemo */,
+				0F189DFA1FA4588B00888800 /* openSSLDemoTests */,
+				0F189E051FA4588B00888800 /* openSSLDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F189DE01FA4588B00888800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F189DF51FA4588B00888800 /* LaunchScreen.storyboard in Resources */,
+				0F189ED41FA8568000888800 /* bank.der in Resources */,
+				0F189DF21FA4588B00888800 /* Assets.xcassets in Resources */,
+				0F189DF01FA4588B00888800 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189DF91FA4588B00888800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189E041FA4588B00888800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F189DDE1FA4588B00888800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F189E231FA4605800888800 /* OpenSSL.m in Sources */,
+				0F189DED1FA4588B00888800 /* ViewController.m in Sources */,
+				0F189DEA1FA4588B00888800 /* AppDelegate.m in Sources */,
+				0F189DE71FA4588B00888800 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189DF71FA4588B00888800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F189E001FA4588B00888800 /* openSSLDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F189E021FA4588B00888800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F189E0B1FA4588B00888800 /* openSSLDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F189DFD1FA4588B00888800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F189DE11FA4588B00888800 /* openSSLDemo */;
+			targetProxy = 0F189DFC1FA4588B00888800 /* PBXContainerItemProxy */;
+		};
+		0F189E081FA4588B00888800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F189DE11FA4588B00888800 /* openSSLDemo */;
+			targetProxy = 0F189E071FA4588B00888800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F189DEE1FA4588B00888800 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F189DEF1FA4588B00888800 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F189DF31FA4588B00888800 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F189DF41FA4588B00888800 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F189E0D1FA4588B00888800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F189E0E1FA4588B00888800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F189E101FA4588B00888800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/openSSLDemo/include\"";
+				INFOPLIST_FILE = openSSLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openSSLDemo/Lib",
+					"$(PROJECT_DIR)/openSSLDemo/lib",
+					"$(PROJECT_DIR)/openSSLDemo/bin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F189E111FA4588B00888800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/openSSLDemo/include\"";
+				INFOPLIST_FILE = openSSLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openSSLDemo/Lib",
+					"$(PROJECT_DIR)/openSSLDemo/lib",
+					"$(PROJECT_DIR)/openSSLDemo/bin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F189E131FA4588B00888800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				INFOPLIST_FILE = openSSLDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openSSLDemo.app/openSSLDemo";
+			};
+			name = Debug;
+		};
+		0F189E141FA4588B00888800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				INFOPLIST_FILE = openSSLDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openSSLDemo.app/openSSLDemo";
+			};
+			name = Release;
+		};
+		0F189E161FA4588B00888800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				INFOPLIST_FILE = openSSLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openSSLDemo;
+			};
+			name = Debug;
+		};
+		0F189E171FA4588B00888800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TCT9M53HAH;
+				INFOPLIST_FILE = openSSLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.openSSLDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openSSLDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F189DDD1FA4588B00888800 /* Build configuration list for PBXProject "openSSLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F189E0D1FA4588B00888800 /* Debug */,
+				0F189E0E1FA4588B00888800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F189E0F1FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F189E101FA4588B00888800 /* Debug */,
+				0F189E111FA4588B00888800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F189E121FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F189E131FA4588B00888800 /* Debug */,
+				0F189E141FA4588B00888800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F189E151FA4588B00888800 /* Build configuration list for PBXNativeTarget "openSSLDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F189E161FA4588B00888800 /* Debug */,
+				0F189E171FA4588B00888800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F189DDA1FA4588B00888800 /* Project object */;
+}
